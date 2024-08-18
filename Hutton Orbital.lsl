@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1931</X>
-  <Y>231</Y>
+  <X>1927</X>
+  <Y>29</Y>
   <VerticalWidth>284</VerticalWidth>
   <VerticalHeight>230</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -66,6 +66,7 @@
       <Path>LiveSplit.Subsplits.dll</Path>
       <Settings>
         <Version>1.7</Version>
+        <AutomaticAbbreviation>False</AutomaticAbbreviation>
         <CurrentSplitTopColor>FF3373F4</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
         <VisualSplitCount>4</VisualSplitCount>
@@ -185,9 +186,8 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath></ScriptPath>
-        <Start>True</Start>
-        <Split>True</Split>
+        <ScriptPath>
+        </ScriptPath>
         <CustomSettings />
       </Settings>
     </Component>
